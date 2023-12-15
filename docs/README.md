@@ -7,8 +7,8 @@ In the screenshot above, I cloned the flask_e2e_project and I did a git add ., g
 
 ## Create a product that uses envirornment variables (.env)
 
-<img width="880" alt="Screen Shot 2023-12-14 at 9 50 27 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e745bae4-af28-427b-9da8-
-ec5915726368">
+<img width="892" alt="Screen Shot 2023-12-14 at 9 51 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e8a1ef69-14e0-4f09-9ab0-9d5a38cb8351">
+
 
 ^ example of my gitignore file 
 

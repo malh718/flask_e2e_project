@@ -1,4 +1,6 @@
 flask 
 authlib 
 requests
-
+python-dotenv
+pandas 
+gunicorn

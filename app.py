@@ -1,7 +1,11 @@
 from flask import Flask, render_template, url_for, redirect, session
+from db import Base, Patient
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine
 from authlib.integrations.flask_client import OAuth
 from authlib.common.security import generate_token
 from dotenv import load_dotenv
+import pandas as pd 
 import os
 from db_functions import update_or_create_user
 
@@ -39,7 +43,7 @@ def google():
     session['nonce'] = generate_token()
     ##, note: if running in google shell, need to override redirect_uri 
     ## to the external web address of the shell, e.g.,
-    # redirect_uri = 'https://5000-cs-213132341638-default.cs-us-east1-pkhd.cloudshell.dev/google/auth/'
+    redirect_uri = 'https://5000-cs-741144739238-default.cs-us-east1-vpcf.cloudshell.dev/google/auth/'
     return oauth.google.authorize_redirect(redirect_uri, nonce=session['nonce'])
 
 @app.route('/google/auth/')
@@ -59,10 +63,30 @@ def dashboard():
     else:
         return redirect('/')
 
+@app.route('/about')
+def about():
+        return render_template('about.html')
+
 @app.route('/logout')
 def logout():
     session.pop('user', None)
     return redirect('/')
+
+
+# # Create a SQLite database (you can change this to your specific database)
+#DATABASE_URL = "mysql+mysqldb://mnh:mnh@34.31.63.12:3306/local.db"
+#DATABASE_URL = "sqlite:///local.db"
+
+
+#app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
+#Base.metadata.bind = app
+
+# Create a SQLAlchemy engine and session
+#engine = create_engine(app.config['SQLALCHEMY_DATABASE_URI'])
+#Session = sessionmaker(bind=engine)
+#session = Session()
+
+
 
 if __name__ == '__main__':
     app.run(

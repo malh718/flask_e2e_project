@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <style>
-    body {
-        background-color: #4CAF50; /* Green background color */
-        color: white; /* White text color */
-        text-align: center; /* Center-align text */
-        padding: 100px; /* Add some padding for better appearance */
-    }
-    button {
-        background-color: #008CBA; /* Blue button color */
-        color: white; /* White text color */
-        padding: 10px 20px; /* Add padding to the button */
-        font-size: 18px; /* Increase font size */
-        border: none; /* Remove border */
-        cursor: pointer; /* Add cursor pointer on hover */
-    }
+   body {
+       background-color: #4CAF50; 
+       color: white; 
+       text-align: center; 
+       padding: 100px; 
+   }
+   button {
+       background-color: #e2e7f3; 
+       color: white; /* White text color */
+       padding: 10px 20px; /* Add padding to the button */
+       font-size: 30px; /* Increase font size */
+       border: none; /* Remove border */
+       cursor: pointer; /* Add cursor pointer on hover */
+   }
 </style>
+
 <body class="bg-white-100 font-sans">
     <header class="bg-purple-300 text-black text-center p-4">
         <body class="bg-white-100 font-sans">
             <header class="bg-blue-300 text-black text-center p-4">
         <h1 class="text-2xl"> Maliha's Flask App  </h1>
     </header>
-    <nav class="flex justify-between bg-gray-800 p-2">
-        <a href="#" class="text-white px-4 py-2">data</a>
-        <a href="#" class="text-white px-4 py-2">about</a>
+
+
+   </header>
+</div>
+<main class="p-8">
+   <h4 class="text-xl mb-4"> This database has two tables. One for medical records and one for patients! </h2>
   
-    </nav>
-    </div>
-    <main class="p-8">
-        <h2 class="text-xl mb-4"> This database has two tables. One for medical records and one for patients! </h2>
+
+    <div>
+        <a href="/about" class="logout-btn" style="text-decoration:none;">
+            <div class="btn-text">
+                CLICK HERE TO LOOK AT PATIENT DATA
+            </div>
+     </a>
 
 
-
+  
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dashboard</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
-</head>
+   <meta charset="UTF-8">
+   <title>Dashboard</title>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
 
 <body>
-    <h1> Dashboard</h1>
-    <h3> Welcome {{ user.name }} </h3>
-    <h2> User Details</h2>
-    <div>
-        <p> Name: {{ user.name }} </p>
-        <p> Email: {{ user.email }} </p>
-        <p> Profile Picture: <img src="{{ user.picture }}" alt="Profile Picture" style="width:50px;height:50px;"> </p>
-    </div>
-    <div>
-        <a href="/logout" class="logout-btn" style="text-decoration:none;">
-            <div class="btn-text">
-                Logout
-            </div>
-        </a>
-    </div>
+   <h1> Dashboard</h1>
+</head>
+
+
+   <h3> Welcome {{ user.name }} </h3>
+   <h2> User Details</h2>
+   <div>
+       <p> Name: {{ user.name }} </p>
+       <p> Email: {{ user.email }} </p>
+       <p> Profile Picture: <img src="{{ user.picture }}" alt="Profile Picture" style="width:50px;height:50px;"> </p>
+   </div>
+   <div>
+       <a href="/logout" class="logout-btn" style="text-decoration:none;">
+           <div class="btn-text">
+               Logout
+           </div>
+       </nav>
+  
+   </div>
 </body>
 <div cl
 <footer class="text-center p-4 bg-blue-300 text-white">
-    <p>Copyright © 2023 My Flask App</p>
+   <p>Copyright © 2023 My Flask App</p>
 </footer>
 </body>
 
 
 </html>
+

@@ -1,63 +1,41 @@
 <!DOCTYPE html>
-<style>
-    body {
-        background-color: #4CAF50; /* Green background color */
-        color: white; /* White text color */
-        text-align: center; /* Center-align text */
-        padding: 100px; /* Add some padding for better appearance */
-    }
-    button {
-        background-color: #008CBA; /* Blue button color */
-        color: white; /* White text color */
-        padding: 10px 20px; /* Add padding to the button */
-        font-size: 18px; /* Increase font size */
-        border: none; /* Remove border */
-        cursor: pointer; /* Add cursor pointer on hover */
-    }
-</style>
-<body class="bg-white-100 font-sans">
-    <header class="bg-purple-300 text-black text-center p-4">
-        <body class="bg-white-100 font-sans">
-            <header class="bg-blue-300 text-black text-center p-4">
-        <h1 class="text-2xl"> Maliha's Flask App  </h1>
-    </header>
-  
-    </nav>
-    </div>
-    <main class="p-8">
-        <h2 class="text-xl mb-4"> This database has two tables. One for medical records and one for patients! </h2>
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Data Table</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-200 p-4">
+    <div class="max-w-screen-md mx-auto bg-white p-4 shadow-md">
+        <h1 class="text-2xl font-bold mb-4 text-center">Patient Data</h1>
 
-<body>
-    <h1> Dashboard</h1>
-    <h3> Welcome {{ user.name }} </h3>
-    <h2> User Details</h2>
-    <div>
-        <p> Name: {{ user.name }} </p>
-        <p> Email: {{ user.email }} </p>
-        <p> Profile Picture: <img src="{{ user.picture }}" alt="Profile Picture" style="width:50px;height:50px;"> </p>
-    </div>
-    <div>
-        <a href="/logout" class="logout-btn" style="text-decoration:none;">
-            <div class="btn-text">
-                Logout
-            </div>
-        </a>
+        <img src="https://alyssa-cdn.azureedge.net/exampleflask17/sun-blasts-a-m66-flare.jpg" alt="Image" class="mx-auto mb-4 items-center">
+        
+        
+        <table class="table-auto w-full bg-gray-100">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2">First Name</th>
+                    <th class="px-4 py-2">Last Name</th>
+                    <th class="px-4 py-2">Date of Birth</th>
+                    <th class="px-4 py-2">Gender</th>
+                    <th class="px-4 py-2">Contact Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for patient in patients %}
+                    <tr>
+                        <td class="border px-4 py-2">{{ patient.first_name }}</td>
+                        <td class="border px-4 py-2">{{ patient.last_name }}</td>
+                        <td class="border px-4 py-2">{{ patient.date_of_birth }}</td>
+                        <td class="border px-4 py-2">{{ patient.gender }}</td>
+                        <td class="border px-4 py-2">{{ patient.contact_number }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 </body>
-<div cl
-<footer class="text-center p-4 bg-blue-300 text-white">
-    <p>Copyright © 2023 My Flask App</p>
-</footer>
-</body>
-
-
 </html>

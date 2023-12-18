@@ -29,8 +29,7 @@ What it does: What this app does is it displays generated Cancer Patient Oncolog
 
 .env file structure
 
-<img width="506" alt="Screen Shot 2023-12-18 at 4 54 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/79402701-3be1-47e1-9a43-e05afa219f74">
-
+<img width="515" alt="Screen Shot 2023-12-18 at 4 56 04 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/0f88bd71-d867-47f1-abcd-9fbbffdfab3f">
 
 
 

@@ -27,6 +27,9 @@ What it does: What this app does is it displays generated Cancer Patient Oncolog
 
 # Brief Explanations
 
+.env file structure
+
+<img width="506" alt="Screen Shot 2023-12-18 at 4 54 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/79402701-3be1-47e1-9a43-e05afa219f74">
 
 
 

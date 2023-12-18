@@ -33,6 +33,7 @@ from sqlalchemy.orm import sessionmaker), this helped me to generate the fake da
 <img width="515" alt="Screen Shot 2023-12-18 at 4 56 04 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/0f88bd71-d867-47f1-abcd-9fbbffdfab3f">
 
 How can they run without Docker locally?
+
 1. Make sure you have all packages you need properly installeed
 2. Create the app.py and requirements .txt and all other files
 3. Make sure you are in the correct directory

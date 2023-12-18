@@ -33,25 +33,62 @@ from sqlalchemy.orm import sessionmaker), this helped me to generate the fake da
 <img width="515" alt="Screen Shot 2023-12-18 at 4 56 04 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/0f88bd71-d867-47f1-abcd-9fbbffdfab3f">
 
 How can they run without Docker locally?
-python app.py 
+1. Make sure you have all packages you need properly installeed
+2. Create the app.py and requirements .txt and all other files
+3. Make sure you are in the correct directory
+4. execute with python app.py
+5. App will run locally on device
 
 How can they run it with Docker locally?
-Create a Dockerfile and ensure that is filled out properly and that the 
-Create an image
-Run container locally
+0. Make sure you have Docker installed
+1.Create a Dockerfile and ensure that is filled out properly and that the requirements.txt file is also correct
+2. Create and run app.py and other files
+3. Create an image using docker build (container name)
+4.To look at your other docker images, simply input docker images
+5. Docker ps will show the container id, image, command, created, status, ports and names
+6. After that is done correctly, you should see it saying building with multiple columns of blue lines indicating what is being built and how much time it takes
+7. Ensure you are in the right port and you can now enter docker run -p 8000:5000 (imagename). 
+8. Once this is deployed,  the app should be up and running and can be accessed locally by ensuring the port to 8000.
+9. App is running,returns Flask App
+10. To stop docker, input docker stop (container id)
 
 How can you deploy it to the cloud?
-GCP or Azure 
+GCP
+1. Open up a project in your Google Cloud Console
+2. To view what projects you currently gave in your GCP you can type gcloud projects list(Name, Project ID and Billing Account will be shown)
+3. Next you will type gcloud config set project [project id]
+4. Ensure that all files are properly created ( ie .yaml file)
+5. Ensure you are in the proper directory or else this will not work
+6. Insert code gcloud app deploy
+7. This will result in an option that says " Please choose the region where you want your App Engine Located"
+8. From here you select a choice, customarily I choose 18 which is us-east1
+9. Once that is succesful, It will note Creating App Engine application.... done
+10. To disable, go into Google Cloud App Engine Setting and Disable the application 
+
+Azure 
+1. Create repo in github and populate with corresponding information
+2. ensure that the .html files are all aligned with the app.py and that they are in a templates folder
+3. Run app.py 
+4. Install Azure CLI with code az
+5. log in using the code az login --use-device-code
+6. Find subscription ID using az account list-- output tables  and then set your ID using az account set --subscription (actual subsciption id)
+7. From here create a resource group and do az webapp up- resource group <nameofgroup> --name <app-name> --runtime<PYTHON:3.9> --sku <B1>
+8. Deploy with az webapp up
+9. To disable/delete type code az webapp delete --name (nameofwebapp)-- resource- group (nameofresourcegroup)
+
+
 
 Technologies I used:
-Github
-TailwindCSS
-Sentry.io
-Flask
-Python
-GCP
-Google Ouath
-SQLalchemy
+Github- Popular version control platform where you can uploud and share code
+TailwindCSS- This is a framework for CSS that allows you to create simple,fast user interfaces. Other examples include Bootstrap
+Cloud shell editor- This is an online editor that allows you to create, edit files all in one envirornement
+Sentry.io- This application helps to see if there are any issues and errors and reports them  
+Flask- Python framwework to create apps 
+Python- Programming language used with Flask
+GCP- Google Cloud Platform, offers a ton of services and APIS 
+Azure- Cloud platform for Azure 
+Google Ouath- Authorization and  Authentication for applications using google sign in
+SQLalchemy- This is an object relational mapping allowing you to make and manipulate databases 
 
 # web service requirements ( all apply to Flask app 1, except for SQLAlchemy bullet)
 

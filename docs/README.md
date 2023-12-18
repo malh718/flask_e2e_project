@@ -36,7 +36,7 @@ How can they run without Docker locally?
 python app.py 
 
 How can they run it with Docker locally?
-Create a Dockerfile
+Create a Dockerfile and ensure that is filled out properly and that the 
 Create an image
 Run container locally
 

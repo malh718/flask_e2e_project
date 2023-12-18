@@ -1,4 +1,16 @@
 # flask_e2e_project
+
+# Flask app 1 with oauth
+
+
+
+https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19-9d04-4ffefba048a9
+
+
+
+
+# Flask app 2 without oauth
+
 # web service requirements
 ## Create a product using a version control system (Github)
 <img width="927" alt="Screen Shot 2023-12-14 at 9 49 01 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/cb698893-2225-4592-bc3f-cd33decc86e7">

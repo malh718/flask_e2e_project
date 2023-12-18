@@ -47,6 +47,8 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 ## Google API- Maps Embed API
 In my Cancer Patient Table, I included a simple map image of Long Island beause the data displayed is cancer patients solely from Long Island.
 
+<img width="579" alt="Screen Shot 2023-12-18 at 12 05 39 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/75ae8abb-2c9b-4628-a20f-b0650678c5f9">
+
 <img width="645" alt="Screen Shot 2023-12-18 at 11 58 38 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/fcb31eab-f1fa-4d6f-9137-4cd39dfbe651">
 
 It was straightforward and I had to make sure my api key was private and in my .env. The code was     <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy6Xu4VRE6IkRGA2UhmH59x0&key=AIzaSyCI4TXTYXT5GOHEZnwj1lnOniYj3iywvQs"></iframe>    

@@ -14,9 +14,11 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19
 
 # Flask app 2 without oauth
 
-What it is:  Patient Dashboard 
+What it is:  Cancer Patient Dashboard 
 
-What it does: What this app does is it displays randomly generated Patient Data. It shows 100 rows and it is also stylized using tailwind. 
+What it does: What this app does is it displays generated Cancer Patient Oncology Data. It includes first name, last name, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 
+
+<img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/fa77116a-ea66-4856-b5cf-ac158e337dff">
 
 
 
@@ -43,7 +45,16 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
 ## tailwind
 1. My app has many styles and the log in page opens to a blue background and the dashboard page opens to a green background. I was able to change this and more using tailwind.
-   Did this using code like 
+   <img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/ab5b8855-6422-4147-bf91-cc29d5ad3b2a">
+
+   Did this using code like:
+
+   <body class="bg-pink-200 p-4">
+    <div class="max-w-screen-md mx-auto bg-white p-4 shadow-md">
+            <header class="bg-purple-300 text-black text-center p-4">
+                <h1 class="text-2xl"> Cancer Patient Info   </h1>
+                
+   
   <footer class="text-center p-4 bg-purple-300 text-white">
     <p>Copyright © 2023 My Flask App</p>
 </footer>
@@ -59,6 +70,8 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
    2. At this point, I have spent too much time developing and making sure the Google OAuth is functioning properly so I made another app to display my fake information
    3.  While this version does not have the Google Oauth, I was able to create the a table and connect it to the flask app
    4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth and I wasted too much time on it to not use it.
+
+<img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/4f175a87-a4f2-45ac-a225-8e774bd398df">
 
 ## Create a product that is containerized (Docker)
 1. Set up flask ensure you are in the correct directory

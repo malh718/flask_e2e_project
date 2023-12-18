@@ -15,7 +15,7 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/4fd8cbed-c245-4d2c
 
 # Flask app 2 without oauth
 
-What it is:  Cancer Patient Dashboard 
+What it is:  Cancer Patient Oncology Contact Dashboard 
 
 What it does: What this app does is it displays generated Cancer Patient Oncologist Data. I was able to do this using (from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker), this helped me to generate the fake dataset. I had tried getting a variation of this on my Flask app, but I believe the outh disrupted this, so I kept this seperate. It includes first name and last name of the patients, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 

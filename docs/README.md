@@ -106,9 +106,11 @@ This is my flask app.
 1. Make sure you are in the correct google shell envirornment.
 2. I then listed out my projects
 <img width="895" alt="Screen Shot 2023-12-18 at 2 03 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7b3eed95-3a19-4aa9-8f9f-4ca669759679">
+
 3. For me, my project name is clean-trees-408504
-the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config set project clean-trees-408504                                    
-4. From here I made sure my .yaml was up to date and that I was in the correct directory
+the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config set project clean-trees-408504
+                                  
+5. From here I made sure my .yaml was up to date and that I was in the correct directory
    
 <img width="590" alt="Screen Shot 2023-12-18 at 2 12 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/627a06c0-db45-4627-bf3e-10f1a10fb6cf">
 

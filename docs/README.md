@@ -57,17 +57,12 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
    Did this using code like:
 
-   <body class="bg-pink-200 p-4">
-    <div class="max-w-screen-md mx-auto bg-white p-4 shadow-md">
-            <header class="bg-purple-300 text-black text-center p-4">
-                <h1 class="text-2xl"> Cancer Patient Info   </h1>
-                
    
-  <footer class="text-center p-4 bg-purple-300 text-white">
-    <p>Copyright © 2023 My Flask App</p>
-</footer>
-</body>
-</html>  on corresponding html pages. 
+  #<footer class="text-center p-4 bg-purple-300 text-white">
+   # <p>Copyright © 2023 My Flask App</p>
+#</footer>
+#</body>
+#</html>  on corresponding html pages. 
 
 <img width="1352" alt="Screen Shot 2023-12-18 at 10 52 34 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/feded152-66b9-47af-9e0e-2406fe8dba59">
 
@@ -144,9 +139,16 @@ This is my flask app.
     profiles_sample_rate=1.0,
 )
 
+
+
 <img width="343" alt="Screen Shot 2023-12-18 at 2 26 02 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e10ae91b-d66b-4efb-86ac-02545bea27d8">
 
+
+
 <img width="324" alt="Screen Shot 2023-12-18 at 5 07 15 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/9c4f00d7-7d62-40dc-808f-cde165071a48">
+
+
+
 In my email, I got this later.
 
 
@@ -156,7 +158,10 @@ In my email, I got this later.
 
 <img width="1272" alt="Screen Shot 2023-12-18 at 1 30 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/f6f9ce7b-fbc9-4b3d-a079-0f04d506feb9">
 
+
 <img width="1438" alt="Screen Shot 2023-12-18 at 1 34 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/be4b983f-866c-4f65-a4e0-66aacc7ae143">
+
+
 
 ## Deployment (GCP)
 1. Make sure you are in the correct google shell envirornment.

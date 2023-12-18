@@ -8,7 +8,8 @@ What it is: Long Island Cancer Patient Dashboard
 What it does: 
 Log in using your gmail account. You will be directed to the dashboard. The dashboard displays user information. From here you can click on the "CLICK HERE TO LOOK AT PATIENT DATA" button. This will direct you to the page with the cancer patient information which includes Patient ID,Cancer type,	First Name,	Last Name,	Date of Birth,	Part of Long Island, and Gender. Additionally there is a map API embedded on this page with a map of Long Island. From here, if you go back to the dashboard you can click on the  Log Out button which will bring you back to the log in page for gmail. 
 
-https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19-9d04-4ffefba048a9
+
+https://github.com/malh718/flask_e2e_project/assets/102617334/4fd8cbed-c245-4d2c-9b1c-1a51c05049fe
 
 
 

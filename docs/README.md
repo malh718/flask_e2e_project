@@ -192,7 +192,7 @@ the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config s
 
 <img width="759" alt="Screen Shot 2023-12-18 at 2 31 21 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7789668c-ae70-4dc8-a4ca-a5c80a470278">
 
-
+Deployed:
 <img width="1321" alt="Screen Shot 2023-12-18 at 2 29 10 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/ea3bbfb0-e302-45e6-aacf-1633ca4cd3d3">
 
 7. Make sure that you disable the application after the fact, by going into your app engine and selecting the disable application button as shown below

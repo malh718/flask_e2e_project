@@ -118,7 +118,7 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
    It should open to the log in page.
 7. The container is adf7adfbf5a4b7a488168231e1fdc3725ffb92a6414ee0270350a7a18912fc7b
 8. Docker ps  lets you view the containers. Here, it shows the container ID, image name, status, ports as well as a name suspicious_shockley.
-9. I then pressed docker stop with the id which will return an empty table back which means it stopped succesfully
+9. I then pressed docker stop with the id which will return an empty table back
 <img width="1397" alt="Screen Shot 2023-12-18 at 10 24 08 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7673ab3d-2279-4623-b360-f08a13957771">
 
 ## Google API- Maps Embed API

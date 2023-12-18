@@ -104,18 +104,24 @@ This is my flask app.
 
 ## Deployment (GCP)
 1. Make sure you are in the correct google shell envirornment.
-2.I then listed out my projects
+2. I then listed out my projects
 <img width="895" alt="Screen Shot 2023-12-18 at 2 03 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7b3eed95-3a19-4aa9-8f9f-4ca669759679">
-3. For me my project name is clean-trees-408504
+3. For me, my project name is clean-trees-408504
 the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config set project clean-trees-408504                                    
 4. From here I made sure my .yaml was up to date and that I was in the correct directory
-<img width="590" alt="Screen Shot 2023-12-18 at 2 12 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/627a06c0-db45-4627-bf3e-10f1a10fb6cf">
-5. After this you deploy and you are all set!!!
    
-<img width="677" alt="Screen Shot 2023-12-18 at 2 22 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/1e91abea-e577-49a1-a381-73b954977d06">
+<img width="590" alt="Screen Shot 2023-12-18 at 2 12 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/627a06c0-db45-4627-bf3e-10f1a10fb6cf">
 
-<img width="1325" alt="Screen Shot 2023-12-18 at 2 19 37 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/bcacfeb1-95f8-49a8-9d9c-0351061ebcf0">
+6. After this you deploy using gcloud app deploy and you are all set!!!
+7. Make sure that you disable the application after the fact, by going into your app engine and selecting the disable application button as shown below
+   
+<img width="417" alt="Screen Shot 2023-12-18 at 2 33 59 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/d5555180-5afd-4ed4-9e67-f97502ecb7e2">
+
+<img width="747" alt="Screen Shot 2023-12-18 at 2 30 08 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/2b4e231f-fe58-47ff-a203-bdc3c2695283">
+
+<img width="759" alt="Screen Shot 2023-12-18 at 2 31 21 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7789668c-ae70-4dc8-a4ca-a5c80a470278">
 
 
+<img width="1321" alt="Screen Shot 2023-12-18 at 2 29 10 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/ea3bbfb0-e302-45e6-aacf-1633ca4cd3d3">
 
 

@@ -24,6 +24,11 @@ What it does: What this app does is it displays generated Cancer Patient Oncolog
 
 ( The reason why I made this additional flask app was because I spent many hours attempting to use SQLAlchemy and having the Oauth. I spent many hours on the Oauth, but when I was done and went to add a table it was not letting me do it. After days of troubleshooting I did not want to lose the progress I had made on the first section, I am aware how to use SQLAlchemy and as you can see in this example, I used it to generate patient data.) 
 
+# Brief Explanations
+
+
+
+
 # web service requirements ( all apply to Flask app 1, except for SQLAlchemy bullet)
 
 ## Create a product using a version control system (Github)

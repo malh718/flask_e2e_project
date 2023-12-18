@@ -91,7 +91,11 @@ This is my flask app.
     traces_sample_rate=1.0,
     profiles_sample_rate=1.0,
 )
-   5.   4. /error at the end of the url resulted in a screen that stated " Exception: Something went wrong: division by zero"
+
+
+   5. /error at the end of the url resulted in a screen that stated " Exception: Something went wrong: division by zero"
    6. This subsequently sent a message to Sentry.io and I received an alert
 
 <img width="1272" alt="Screen Shot 2023-12-18 at 1 30 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/f6f9ce7b-fbc9-4b3d-a079-0f04d506feb9">
+
+<img width="1438" alt="Screen Shot 2023-12-18 at 1 34 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/be4b983f-866c-4f65-a4e0-66aacc7ae143">

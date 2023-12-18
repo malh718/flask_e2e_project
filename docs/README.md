@@ -116,7 +116,6 @@ the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config s
 
 <img width="1325" alt="Screen Shot 2023-12-18 at 2 19 37 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/bcacfeb1-95f8-49a8-9d9c-0351061ebcf0">
 
-<img width="343" alt="Screen Shot 2023-12-18 at 2 26 02 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e10ae91b-d66b-4efb-86ac-02545bea27d8">
 
 
 

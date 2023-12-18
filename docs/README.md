@@ -113,9 +113,7 @@ the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config s
 <img width="590" alt="Screen Shot 2023-12-18 at 2 12 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/627a06c0-db45-4627-bf3e-10f1a10fb6cf">
 
 6. After this you deploy using gcloud app deploy and you are all set!!!
-7. Make sure that you disable the application after the fact, by going into your app engine and selecting the disable application button as shown below
-   
-<img width="417" alt="Screen Shot 2023-12-18 at 2 33 59 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/d5555180-5afd-4ed4-9e67-f97502ecb7e2">
+
 
 <img width="747" alt="Screen Shot 2023-12-18 at 2 30 08 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/2b4e231f-fe58-47ff-a203-bdc3c2695283">
 
@@ -124,4 +122,6 @@ the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config s
 
 <img width="1321" alt="Screen Shot 2023-12-18 at 2 29 10 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/ea3bbfb0-e302-45e6-aacf-1633ca4cd3d3">
 
-
+7. Make sure that you disable the application after the fact, by going into your app engine and selecting the disable application button as shown below
+   
+<img width="417" alt="Screen Shot 2023-12-18 at 2 33 59 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/d5555180-5afd-4ed4-9e67-f97502ecb7e2">

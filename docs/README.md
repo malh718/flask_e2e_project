@@ -28,10 +28,24 @@ What it does: What this app does is it displays generated Cancer Patient Oncolog
 # Brief Explanations
 
 .env file structure
-
 <img width="515" alt="Screen Shot 2023-12-18 at 4 56 04 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/0f88bd71-d867-47f1-abcd-9fbbffdfab3f">
 
+How can they run without Docker locally?
 
+How can they run it with Docker locally?
+
+How can you deploy it to the cloud?
+
+
+Technologies I used:
+Github
+TailwindCSS
+Sentry.io
+Flask
+Python
+GCP
+Google Ouath
+SQLalchemy
 
 # web service requirements ( all apply to Flask app 1, except for SQLAlchemy bullet)
 

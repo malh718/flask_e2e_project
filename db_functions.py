@@ -31,3 +31,4 @@ def update_or_create_user(user_info):
     except Exception as e:
         print(e)
         db.rollback()
+

@@ -5,6 +5,7 @@ from sqlalchemy import create_engine
 from authlib.integrations.flask_client import OAuth
 from authlib.common.security import generate_token
 from dotenv import load_dotenv
+from datetime import datetime
 import pandas as pd 
 import os
 from db_functions import update_or_create_user
@@ -18,9 +19,13 @@ app = Flask(__name__)
 app.secret_key = os.urandom(12)
 oauth = OAuth(app)
 
+
+
 @app.route('/')
 def index():
-    return render_template('index.html')
+    current_datetime = datetime.now()
+    formatted_date = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+    return render_template('index.html',current_datetime=current_datetime, formatted_date=formatted_date)
 
 @app.route('/google/')
 def google():
@@ -63,9 +68,7 @@ def dashboard():
     else:
         return redirect('/')
 
-@app.route('/about')
-def about():
-        return render_template('about.html')
+
 
 @app.route('/logout')
 def logout():
@@ -73,23 +76,33 @@ def logout():
     return redirect('/')
 
 
-# # Create a SQLite database (you can change this to your specific database)
-#DATABASE_URL = "mysql+mysqldb://mnh:mnh@34.31.63.12:3306/local.db"
-#DATABASE_URL = "sqlite:///local.db"
+@app.route("/about")
+def table():
 
+    data_dic = {
+        'Patient ID': [45103, 87126, 34980, 56201, 91032, 65487, 23716],
+        'Cancer type': ['Leukemia', 'Breast Cancer', 'Prostate Cancer', 'Colon Cancer', 'Ovarian Cancer', 'Pancreatic Cancer', 'Lung Cancer'],
+        'First Name': ['Liam', 'Emma', 'Noah', 'Olivia', 'Ava', 'Isabella', 'Sophia'],
+        'Last Name': ['Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller'],
+        'Date of Birth': ['04/17/89', '12/05/92', '09/22/84', '07/13/95', '03/28/91', '11/08/87', '06/01/90'],
+        'Part of Long Island': ['Hicksville', 'Garden City', 'Massapequa', 'Port Washington', 'Huntington', 'Smithtown', 'Freeport'],
+        'Gender': ['Male', 'Female', 'Male', 'Female', 'Female', 'Female','Male']
+        
+    }
+    columns = ['Patient ID', 'Cancer type', 'First Name','Last Name','Date of Birth', 'Part of Long Island', 'Gender']
+    index = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g']
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
-#Base.metadata.bind = app
-
-# Create a SQLAlchemy engine and session
-#engine = create_engine(app.config['SQLALCHEMY_DATABASE_URI'])
-#Session = sessionmaker(bind=engine)
-#session = Session()
-
-
+    df = pd.DataFrame(data_dic, columns=columns, index=index)
+    table = df.to_html(index=False)
+    
+    return render_template(
+        "about.html",
+        table=table)   
+    
 
 if __name__ == '__main__':
-    app.run(
-        debug=True, 
-        port=5000
-    )
+    #app.run(
+       # debug=True, 
+           app.run(debug=True, host='0.0.0.0')
+       # port=5000
+    #)

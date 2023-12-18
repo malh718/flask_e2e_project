@@ -3,4 +3,4 @@ authlib
 requests
 python-dotenv
 pandas 
-gunicorn
+numpy

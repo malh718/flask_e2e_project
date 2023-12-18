@@ -12,6 +12,7 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19
 # Flask app 2 without oauth
 
 # web service requirements
+
 ## Create a product using a version control system (Github)
 <img width="927" alt="Screen Shot 2023-12-14 at 9 49 01 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/cb698893-2225-4592-bc3f-cd33decc86e7">
 
@@ -80,7 +81,7 @@ This is my flask app.
    1. In order for me to get SQLalchemy to work and display fake cancer patient information for me, I had to make another app without the OAuth
    2. At this point, I have spent too much time developing and making sure the Google OAuth is functioning properly so I made another app to display my fake information
    3.  While this version does not have the Google Oauth, I was able to create the a table and connect it to the flask app
-   4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth.
+   4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth and I wasted too much time on it to not use it.
 ## Sentry.io
    1. I created an account using Sentry.io and connected with my github
    2. From here I was able to create a new flask project and I set up alerts.
@@ -92,6 +93,7 @@ This is my flask app.
     profiles_sample_rate=1.0,
 )
 
+<img width="343" alt="Screen Shot 2023-12-18 at 2 26 02 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e10ae91b-d66b-4efb-86ac-02545bea27d8">
 
    5. /error at the end of the url resulted in a screen that stated " Exception: Something went wrong: division by zero"
    6. This subsequently sent a message to Sentry.io and I received an alert
@@ -99,3 +101,22 @@ This is my flask app.
 <img width="1272" alt="Screen Shot 2023-12-18 at 1 30 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/f6f9ce7b-fbc9-4b3d-a079-0f04d506feb9">
 
 <img width="1438" alt="Screen Shot 2023-12-18 at 1 34 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/be4b983f-866c-4f65-a4e0-66aacc7ae143">
+
+## Deployment (GCP)
+1. Make sure you are in the correct google shell envirornment.
+2.I then listed out my projects
+<img width="895" alt="Screen Shot 2023-12-18 at 2 03 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7b3eed95-3a19-4aa9-8f9f-4ca669759679">
+3. For me my project name is clean-trees-408504
+the line of code was  maliha_718@cloudshell:~/flask_e2e_project$ gcloud config set project clean-trees-408504                                    
+4. From here I made sure my .yaml was up to date and that I was in the correct directory
+<img width="590" alt="Screen Shot 2023-12-18 at 2 12 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/627a06c0-db45-4627-bf3e-10f1a10fb6cf">
+5. After this you deploy and you are all set!!!
+   
+<img width="677" alt="Screen Shot 2023-12-18 at 2 22 42 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/1e91abea-e577-49a1-a381-73b954977d06">
+
+<img width="1325" alt="Screen Shot 2023-12-18 at 2 19 37 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/bcacfeb1-95f8-49a8-9d9c-0351061ebcf0">
+
+<img width="343" alt="Screen Shot 2023-12-18 at 2 26 02 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/e10ae91b-d66b-4efb-86ac-02545bea27d8">
+
+
+

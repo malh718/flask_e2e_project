@@ -17,7 +17,8 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/4fd8cbed-c245-4d2c
 
 What it is:  Cancer Patient Dashboard 
 
-What it does: What this app does is it displays generated Cancer Patient Oncologist Data. It includes first name and last name of the patients, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 
+What it does: What this app does is it displays generated Cancer Patient Oncologist Data. I was able to do this using (from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker), this helped me to generate the fake dataset. I had tried getting a variation of this on my Flask app, but I believe the outh disrupted this, so I kept this seperate. It includes first name and last name of the patients, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 
 
 <img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/fa77116a-ea66-4856-b5cf-ac158e337dff">
 
@@ -31,11 +32,15 @@ What it does: What this app does is it displays generated Cancer Patient Oncolog
 <img width="515" alt="Screen Shot 2023-12-18 at 4 56 04 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/0f88bd71-d867-47f1-abcd-9fbbffdfab3f">
 
 How can they run without Docker locally?
+python app.py 
 
 How can they run it with Docker locally?
+Create a Dockerfile
+Create an image
+Run container locally
 
 How can you deploy it to the cloud?
-
+GCP or Azure 
 
 Technologies I used:
 Github

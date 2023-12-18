@@ -80,16 +80,27 @@ Azure
 
 
 Technologies I used:
+
 Github- Popular version control platform where you can uploud and share code
+
 TailwindCSS- This is a framework for CSS that allows you to create simple,fast user interfaces. Other examples include Bootstrap
+
 Cloud shell editor- This is an online editor that allows you to create, edit files all in one envirornement
+
 Sentry.io- This application helps to see if there are any issues and errors and reports them  
+
 Flask- Python framwework to create apps 
+
 Python- Programming language used with Flask
+
 GCP- Google Cloud Platform, offers a ton of services and APIS 
+
 Azure- Cloud platform for Azure 
+
 Google Ouath- Authorization and  Authentication for applications using google sign in
+
 SQLalchemy- This is an object relational mapping allowing you to make and manipulate databases 
+
 
 # web service requirements ( all apply to Flask app 1, except for SQLAlchemy bullet)
 

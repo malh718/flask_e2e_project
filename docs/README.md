@@ -55,14 +55,8 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 ## tailwind
 1. My app has many styles and the log in page opens to a blue background and the dashboard page opens to a green background. I was able to change this and more using tailwind.
 
-   Did this using code like:
+   Did this using code tailwind flask class code as shown below:
 
-   
-  #<footer class="text-center p-4 bg-purple-300 text-white">
-   # <p>Copyright © 2023 My Flask App</p>
-#</footer>
-#</body>
-#</html>  on corresponding html pages. 
 
 <img width="1352" alt="Screen Shot 2023-12-18 at 10 52 34 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/feded152-66b9-47af-9e0e-2406fe8dba59">
 

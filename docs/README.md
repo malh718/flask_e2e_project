@@ -66,8 +66,32 @@ In my Cancer Patient Table, I included a simple map image of Long Island beause 
 It was straightforward and I had to make sure my api key was private and in my .env. The code was     <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy6Xu4VRE6IkRGA2UhmH59x0&key=AIzaSyCI4TXTYXT5GOHEZnwj1lnOniYj3iywvQs"></iframe>    
 
 
-
 ## Flask app
 This is my flask app. 
 <img width="1257" alt="Screen Shot 2023-12-18 at 10 55 45 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/8e7388ed-bc20-40b4-9917-aed35777d704">
 
+
+## Oauth
+   1. I was able to succesfully use Google OAuth, so that when you first open up Flask app 1, it brings you into the log in page.
+   2. Once you have entered your Google Log In information, it brings you to the dashboard. The dashboard is stylized and shows your user information. Furthermore clicking on the button that says "CLICK HERE TO LOOK AT PATIENT DATA" will direct you to the map API and cancer patient data table.
+   3. On this page we have our Maps Embed API
+
+## SQL Alchemy 
+   1. In order for me to get SQLalchemy to work and display fake cancer patient information for me, I had to make another app without the OAuth
+   2. At this point, I have spent too much time developing and making sure the Google OAuth is functioning properly so I made another app to display my fake information
+   3.  While this version does not have the Google Oauth, I was able to create the a table and connect it to the flask app
+   4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth.
+## Sentry.io
+   1. I created an account using Sentry.io and connected with my github
+   2. From here I was able to create a new flask project and I set up alerts.
+   3. I then copied and pasted this information into my app.py file and ran it
+
+   sentry_sdk.init(
+    dsn="https://48cd49181c3a276fcafe4ec7563843e6@o4506418102927360.ingest.sentry.io/4506418158043136",
+    traces_sample_rate=1.0,
+    profiles_sample_rate=1.0,
+)
+   5.   4. /error at the end of the url resulted in a screen that stated " Exception: Something went wrong: division by zero"
+   6. This subsequently sent a message to Sentry.io and I received an alert
+
+<img width="1272" alt="Screen Shot 2023-12-18 at 1 30 43 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/f6f9ce7b-fbc9-4b3d-a079-0f04d506feb9">

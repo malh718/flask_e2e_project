@@ -16,6 +16,11 @@ My .env variables incluse GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET
 GOOGLE_CLIENT_ID = os.getenv('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
+
+## tailwind
+1. My app has many styles and the log in page opens to a blue background and the dashboard page opens to a green background. I was able to change this and more using tailwind. 
+
+
 ## Create a product that is containerized (Docker)
 1. Set up flask ensure you are in the correct directory
 2. build your docker image, I named mine maliha2

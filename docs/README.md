@@ -16,7 +16,7 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19
 
 What it is:  Cancer Patient Dashboard 
 
-What it does: What this app does is it displays generated Cancer Patient Oncology Data. It includes first name, last name, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 
+What it does: What this app does is it displays generated Cancer Patient Oncologist Data. It includes first name and last name of the patients, date of first cancer emergence, as well as the number to their oncologist. It shows 100 rows and it is also stylized using tailwind. 
 
 <img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/fa77116a-ea66-4856-b5cf-ac158e337dff">
 

@@ -77,6 +77,17 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
 <img width="1319" alt="Screen Shot 2023-12-18 at 4 12 23 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/4f175a87-a4f2-45ac-a225-8e774bd398df">
 
+
+<img width="1159" alt="Screen Shot 2023-12-18 at 4 26 13 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/990232c4-a29f-43cf-a6b8-5c65793538c7">
+
+<img width="1091" alt="Screen Shot 2023-12-18 at 4 26 32 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/6dae6213-ca1e-4e08-bf10-bd6b07433158">
+
+
+
+
+
+
+
 ## Create a product that is containerized (Docker)
 1. Set up flask ensure you are in the correct directory
 2. build your docker image, I named mine maliha2

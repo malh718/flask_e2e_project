@@ -3,6 +3,8 @@
 # Flask app 1 with oauth
 
 What it is: Long Island Cancer Patient Dashboard
+
+
 What it does: Log in using your gmail account. You will be directed to the dashboard. The dashboard displays user information. From here you can click on the "CLICK HERE TO LOOK AT PATIENT DATA" button. This will direct you to the page with the cancer patient information which includes Patient ID,Cancer type,	First Name,	Last Name,	Date of Birth,	Part of Long Island, and Gender. Additionally there is a map API embedded on this page with a map of Long Island.
 
 https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19-9d04-4ffefba048a9
@@ -11,7 +13,15 @@ https://github.com/malh718/flask_e2e_project/assets/102617334/6f72a7f5-3e97-4e19
 
 # Flask app 2 without oauth
 
-# web service requirements
+What it is:  Patient Dashboard 
+
+What it does: What this app does is it displays randomly generated Patient Data. It shows 100 rows and it is also stylized using tailwind. 
+
+
+
+( The reason why I made this additional flask app was because I spent many hours attempting to use SQLAlchemy and having the Oauth. I spent many hours on the Oauth, but when I was done and went to add a table it was not letting me do it. After days of troubleshooting I did not want to lose the progress I had made on the first section, I am aware how to use SQLAlchemy and as you can see in this example, I used it to generate patient data.) 
+
+# web service requirements ( all apply to Flask app 1, except for SQLAlchemy bullet)
 
 ## Create a product using a version control system (Github)
 <img width="927" alt="Screen Shot 2023-12-14 at 9 49 01 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/cb698893-2225-4592-bc3f-cd33decc86e7">
@@ -43,6 +53,11 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
 <img width="1142" alt="Screen Shot 2023-12-18 at 10 53 02 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/3490f220-54d8-4364-89ef-fc31c7110bab">
 
+## SQL Alchemy 
+   1. In order for me to get SQLalchemy to work and display fake cancer patient information for me, I had to make another app without the OAuth
+   2. At this point, I have spent too much time developing and making sure the Google OAuth is functioning properly so I made another app to display my fake information
+   3.  While this version does not have the Google Oauth, I was able to create the a table and connect it to the flask app
+   4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth and I wasted too much time on it to not use it.
 
 ## Create a product that is containerized (Docker)
 1. Set up flask ensure you are in the correct directory
@@ -77,11 +92,7 @@ This is my flask app.
    2. Once you have entered your Google Log In information, it brings you to the dashboard. The dashboard is stylized and shows your user information. Furthermore clicking on the button that says "CLICK HERE TO LOOK AT PATIENT DATA" will direct you to the map API and cancer patient data table.
    3. On this page we have our Maps Embed API
 
-## SQL Alchemy 
-   1. In order for me to get SQLalchemy to work and display fake cancer patient information for me, I had to make another app without the OAuth
-   2. At this point, I have spent too much time developing and making sure the Google OAuth is functioning properly so I made another app to display my fake information
-   3.  While this version does not have the Google Oauth, I was able to create the a table and connect it to the flask app
-   4.  I am aware of how to use SQLALchemy, but for some reason no matter how much I tried it would not work with Oauth and I wasted too much time on it to not use it.
+
 ## Sentry.io
    1. I created an account using Sentry.io and connected with my github
    2. From here I was able to create a new flask project and I set up alerts.

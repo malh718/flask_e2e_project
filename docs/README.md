@@ -18,7 +18,17 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
 
 ## tailwind
-1. My app has many styles and the log in page opens to a blue background and the dashboard page opens to a green background. I was able to change this and more using tailwind. 
+1. My app has many styles and the log in page opens to a blue background and the dashboard page opens to a green background. I was able to change this and more using tailwind.
+   Did this using code like 
+  <footer class="text-center p-4 bg-purple-300 text-white">
+    <p>Copyright © 2023 My Flask App</p>
+</footer>
+</body>
+</html>  on corresponding html pages. 
+
+<img width="1352" alt="Screen Shot 2023-12-18 at 10 52 34 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/feded152-66b9-47af-9e0e-2406fe8dba59">
+
+<img width="1142" alt="Screen Shot 2023-12-18 at 10 53 02 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/3490f220-54d8-4364-89ef-fc31c7110bab">
 
 
 ## Create a product that is containerized (Docker)
@@ -33,3 +43,8 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 8. Docker ps  lets you view the containers. Here, it shows the container ID, image name, status, ports as well as a name suspicious_shockley.
 9. I then pressed docker stop with the id which will return an empty table back which means it stopped succesfully
 <img width="1397" alt="Screen Shot 2023-12-18 at 10 24 08 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/7673ab3d-2279-4623-b360-f08a13957771">
+
+## Flask app
+This is my flask app. 
+<img width="1257" alt="Screen Shot 2023-12-18 at 10 55 45 AM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/8e7388ed-bc20-40b4-9917-aed35777d704">
+

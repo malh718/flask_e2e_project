@@ -138,13 +138,6 @@ This is my flask app.
 
 
 
-<img width="324" alt="Screen Shot 2023-12-18 at 5 07 15 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/9c4f00d7-7d62-40dc-808f-cde165071a48">
-
-
-
-In my email, I got this later.
-
-
 
    5. /error at the end of the url resulted in a screen that stated " Exception: Something went wrong: division by zero"
    6. This subsequently sent a message to Sentry.io and I received an alert
@@ -153,6 +146,11 @@ In my email, I got this later.
 
 
 <img width="1438" alt="Screen Shot 2023-12-18 at 1 34 20 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/be4b983f-866c-4f65-a4e0-66aacc7ae143">
+
+
+In my email, I got this later.
+
+<img width="324" alt="Screen Shot 2023-12-18 at 5 07 15 PM" src="https://github.com/malh718/flask_e2e_project/assets/102617334/9c4f00d7-7d62-40dc-808f-cde165071a48">
 
 
 
